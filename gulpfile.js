@@ -1,10 +1,11 @@
 import gulp from 'gulp';
 
 import { path } from './gulp/config/path.js';
+import { plugins } from './gulp/config/plugins.js';
+
 import { images } from './gulp/tasks/images.js';
 import { clean } from './gulp/tasks/clean.js';
 import { html } from './gulp/tasks/html.js';
-import { plugins } from './gulp/config/plugins.js';
 import { scripts } from './gulp/tasks/scripts.js';
 import { styles } from './gulp/tasks/styles.js';
 import { server } from './gulp/tasks/server.js';
