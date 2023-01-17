@@ -1,0 +1,36 @@
+extends includes/_layout
+
+block title
+  title Main Page 
+
+block content 
+  section#section1.section.parallax1
+    a.anchor(href="#section2") Section 1
+
+  .content 
+    h1 Parallax effect
+    h3 Parallax is a displacement or difference in the apparent position an object viewed along two different lines of sight and is measured by the angle or semi-angleof inclination between those two lines.
+
+    h1 Floating button
+    h3 Image result for floating button. A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen. It appears in front of all screen content, typically as a circular shape with an iconin its center.
+
+    h1 Smooth Scroll
+    h3 The smooth Scrolling feature for web page allows the user to sctoll smoothly while navigation across the page. The featura came into wide use because the normal scrolling is choppy and annoying for a lot of users who have to read long page on the web.
+
+  section#section2.section.parallax2
+    a.anchor(href="#section1") Section 2
+
+  //- To open/close the floating button
+  .floating-wrapper
+    input(type="checkbox")#floatCheckbox.floating-checkbox
+    label(for="floatCheckbox").floating
+      .circle-icon
+    .floating-wheel
+      a(href="#!").floating-action.floating-action-1
+        p !
+      a(href="#!").floating-action.floating-action-2
+        p @
+      a(href="#!").floating-action.floating-action-3
+        p #
+      a(href="#!").floating-action.floating-action-4
+        p &
